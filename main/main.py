@@ -41,3 +41,39 @@ info["nom"] ="labradore"
 contact = []
 contact.append(info)
 print(contact)
+
+ensoleille = True
+if ensoleille:
+    print("on va à la plage")
+else:
+    print("on reste à la maison")
+    
+avec_soleil = True
+en_semaine = False
+if avec_soleil and not en_semaine:
+    print("on va à la plage !")
+elif avec_soleil and en_semaine:
+    print("on va au travail !")
+else:
+    print("on reste à la maison !")
+    
+ensoleille = False
+neige = True
+if ensoleille:
+    print("on va à la plage !")
+elif neige:
+    print("on fait un bonhomme de neige")
+else:
+    print("on reste à la maison !")
+    
+    
+persopref = "gohan"
+match persopref:
+    case "goku":
+        print("ce n'est pas lui")
+    case "vegeta":
+        print("non")
+    case "gohan":
+        print("c'est lui")
+    case _:
+        print("aucun de ces perso")    
