@@ -32,3 +32,12 @@ print(len(fruits))
 
 fruits.sort()
 print(fruits)
+
+
+info = { "poids" : "16 kg", "origine": "maroc"
+    
+}
+info["nom"] ="labradore"
+contact = []
+contact.append(info)
+print(contact)
