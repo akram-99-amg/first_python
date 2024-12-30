@@ -66,14 +66,41 @@ elif neige:
 else:
     print("on reste à la maison !")
     
+
+#persopref = "gohan"
+#match persopref:
+    #case "goku":
+     #   print("ce n'est pas lui")
+    #case "vegeta":
+    #    print("non")
+    #case "gohan":
+    #    print("c'est lui")
+    #case _:
+    #    print("aucun de ces perso")    
+        
+naruto =["kakashi","itachi","sasuke","pain"]
+for ninja in range(2,5):
+    print(naruto)
+        
+        
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
     
-persopref = "gohan"
-match persopref:
-    case "goku":
-        print("ce n'est pas lui")
-    case "vegeta":
-        print("non")
-    case "gohan":
-        print("c'est lui")
-    case _:
-        print("aucun de ces perso")    
+for i in range(10):
+    if i == 5:
+        continue
+    print(i)
+    
+def message ():
+    print("hello world")
+message()
+
+def addition (a, b):
+    resultat= a + b
+    return resultat, a, b
+
+retour=addition(20, 20) 
+print(retour)
+   
