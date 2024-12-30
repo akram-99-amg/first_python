@@ -88,6 +88,7 @@ for i in range(10):
         break
     print(i)
     
+    
 for i in range(10):
     if i == 5:
         continue
@@ -104,3 +105,20 @@ def addition (a, b):
 retour=addition(20, 20) 
 print(retour)
    
+
+
+#nom= input("entrer un nom :")
+#prénom=input("entrer un prénom :")
+
+#resultat= nom + prénom
+#print(f"votre nom complet est : {resultat}")
+
+numerateur= input("entrez le numerateur :")
+denominateur= input("entrez un denominateur :")
+try:
+    resultat= int(numerateur) / int(denominateur)
+    print(f"votre résultat est {resultat}")
+except ValueError:
+    print("Erreur :essayez un nombre")
+except ZeroDivisionError:
+    print("Erreur :devision par 0")
